@@ -2,8 +2,6 @@ FROM cloyne/base
 
 MAINTAINER Mitar <mitar.docker@tnode.com>
 
-ENV DEBIAN_FRONTEND noninteractive
-
 RUN apt-get update -q -q && \
  apt-get install runit --yes --force-yes
 
