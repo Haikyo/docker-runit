@@ -1,4 +1,4 @@
-FROM cloyne/base
+FROM peerlibrary/base
 
 MAINTAINER Mitar <mitar.docker@tnode.com>
 
